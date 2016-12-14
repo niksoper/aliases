@@ -14,9 +14,9 @@ alias wipe="git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --
 <pre>
 [alias]
 	co = checkout
-	hist = log --oneline --decorate --all --graph -n 10
+	l = log --oneline --decorate --all --graph -n 10
 	br = branch
-	hista = log --oneline --decorate --graph --all
+	la = log --oneline --decorate --graph --all
 	st = status -s
 	aa = add -A
 	difs = diff --staged
