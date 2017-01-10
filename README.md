@@ -20,7 +20,7 @@ alias ggg='git la'
 	l = log --oneline --decorate --all --graph -n 10
 	br = branch
 	la = log --oneline --decorate --graph --all
-	st = status -s
+	st = status -s -b
 	aa = add -A
 	difs = diff --staged
 [push]
