@@ -25,4 +25,6 @@ alias ggg='git la'
 	difs = diff --staged
 [push]
 	default = simple
+[core]
+	pager = less -F -X
 </pre>
