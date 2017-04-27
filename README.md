@@ -10,6 +10,8 @@ alias wipe="git aa && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
 alias g='git st'
 alias gg='git l'
 alias ggg='git la'
+alias gd='git diff'
+alias gds='git diff --staged'
 </pre>
 
 ## .gitconfig
